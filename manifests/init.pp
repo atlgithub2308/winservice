@@ -3,6 +3,7 @@
 # A description of what this class does
 #
 # @example
-include winservice
+# include winservice
 class winservice {
+  include motd
 }
