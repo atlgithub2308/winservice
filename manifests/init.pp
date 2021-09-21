@@ -5,5 +5,8 @@
 # @example
 # include winservice
 class winservice {
-  include motd
+  user { 'testuser':
+    ensure => present,
+    managehome => true,
+  }
 }
