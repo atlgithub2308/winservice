@@ -1,2 +1,2 @@
-wmic service $PT_verb $PT_option , $PT_option
+wmic service $PT_verb name, startname
 
