@@ -1,2 +1,3 @@
-wmic service $PT_verb name, startname
+wmic service get name, startname
+echo $PT_verb
 
