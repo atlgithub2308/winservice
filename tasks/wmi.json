@@ -1,5 +1,11 @@
 {
   "puppet_task_version": 1,
   "supports_noop": false,
-  "description": "A short description of this task"
+  "description": "A short description of this task",
+  "parameters": {
+    "verb": {
+      "description": "which action",
+      "type": "Enum[create, get, delete]"
+    }
+  }
 }
