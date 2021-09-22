@@ -5,9 +5,5 @@
 # @example
 # include winservice
 class winservice {
-  user { 'testuser':
-    ensure     => present,
-    managehome => true,
-    password   => "WinPassw0rd1234!!asdfr",
-  }
+
 }
