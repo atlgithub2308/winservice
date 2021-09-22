@@ -1,0 +1,15 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "A short description of this task",
+  "parameters": {
+    "verb": {
+      "description": "which agument to run",
+      "type": "Enum[create, delete, get, list, set, switches]"
+    }
+    "option": {
+      "description": "which option",
+      "type": "Enum[start, startname]"
+    }
+  }
+}
