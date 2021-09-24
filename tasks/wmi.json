@@ -7,6 +7,14 @@
     "verb": {
       "description": "which action",
       "type": "Enum[create, get, delete]"
-    }
+    },
+    "option1": {
+      "description": "which option1",
+      "type": "Enum[name, startname]"
+    }, 
+    "option2": {
+      "description": "which option1",
+      "type": "Enum[name, startname]"
+    },
   }
 }
