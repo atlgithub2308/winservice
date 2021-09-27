@@ -2,22 +2,18 @@
   "puppet_task_version": 1,
   "supports_noop": false,
   "description": "A short description of this task",
-  "input_method": "environment",
   "parameters": {
     "verb": {
       "description": "which action",
-      "type": "Enum[create, get, delete]",
-      "default": "get"
+      "type": "Enum[create, get, delete]"
     },
     "option1": {
       "description": "which option1",
-      "type": "Enum[name, startname]",
-      "default": "name"
+      "type": "Enum[name, startname]"
     }, 
     "option2": {
       "description": "which option2",
-      "type": "Enum[name, startname]",
-      "default": "startname"
+      "type": "Enum[name, startname]"
     }
   }
 }
