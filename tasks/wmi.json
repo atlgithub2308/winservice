@@ -6,15 +6,18 @@
   "parameters": {
     "verb": {
       "description": "which action",
-      "type": "Enum[create, get, delete]"
+      "type": "Enum[create, get, delete]",
+      "default": get
     },
     "option1": {
       "description": "which option1",
-      "type": "Enum[name, startname]"
+      "type": "Enum[name, startname]",
+      "default": name
     }, 
     "option2": {
       "description": "which option2",
-      "type": "Enum[name, startname]"
+      "type": "Enum[name, startname]",
+      "default": startname
     }
   }
 }
