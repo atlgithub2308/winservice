@@ -1,20 +1,5 @@
 {
   "puppet_task_version": 1,
   "supports_noop": false,
-  "description": "A short description of this task",
-  "input_method": "environment",
-  "parameters": {
-    "verb": {
-      "description": "which action",
-      "type": "String"
-    },
-    "option1": {
-      "description": "which option1",
-      "type": "String"
-    }, 
-    "option2": {
-      "description": "which option2",
-      "type": "String"
-    }
-  }
+  "description": "A short description of this task"
 }
