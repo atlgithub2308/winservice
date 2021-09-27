@@ -7,17 +7,17 @@
     "verb": {
       "description": "which action",
       "type": "Enum[create, get, delete]",
-      "default": get
+      "default": "get"
     },
     "option1": {
       "description": "which option1",
       "type": "Enum[name, startname]",
-      "default": name
+      "default": "name"
     }, 
     "option2": {
       "description": "which option2",
       "type": "Enum[name, startname]",
-      "default": startname
+      "default": "startname"
     }
   }
 }
