@@ -13,8 +13,8 @@
       "type": "Enum[name, startname]"
     }, 
     "option2": {
-      "description": "which option1",
+      "description": "which option2",
       "type": "Enum[name, startname]"
-    },
+    }
   }
 }
