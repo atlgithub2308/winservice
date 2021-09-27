@@ -4,7 +4,8 @@
   "description": "A short description of this task",
   "parameters": {
     "name": {
-      "description": "which action",
+      "description": "Process name",
       "type": "String"
     }
+  }
 }
